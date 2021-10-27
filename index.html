@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        <div class="container">
+            <div class="window">
+                <div class="counter">
+                    <h1>{{count}}</h1>
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="button" value="click me" class="clicker" @click="increment">
+                <input type="button" value="reset counter" class="reset"@click='reset'>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

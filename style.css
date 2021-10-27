@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 1rem;
+
+}
+
+.window{
+    background-color: rgba(160, 158, 158, 0.466);
+    border-radius: 1rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.counter{
+    background-color: rgb(206, 206, 206);
+    border-radius: 1rem;
+    font-size: 6rem;
+    font-family: monospace;
+
+}
+
+.buttons{
+    
+    display: flex;
+    flex-direction: column;
+    height: 20%
+}
+
+
+.clicker, .reset{
+    background-color: rgb(195, 199, 195);
+    margin: 5px;
+    height: 50%;
+    border-radius: 1rem;
+    border: none;
+    font-size: 4rem;
+    font-family: monospace;
+    font-variant: small-caps;
+}
+
+.clicker:hover{
+    background-color: rgb(139, 247, 148);
+}
+
+.clicker:active{
+    background-color: rgb(76, 235, 84);
+
+
+}
+
+.reset:hover{
+    background-color: rgb(255, 86, 86);
+}
+.reset:active{
+    background-color: rgb(76, 235, 84);
+}
